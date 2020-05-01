@@ -4,10 +4,10 @@ var test = require('tape');
 var AsyncCache = require('async-cache');
 var bl = require('./');
 
-var bin = '45717360';
+var bin ='4984533162113007'
 var result = {
 	number: {
-		length: 16,
+		length: 73,
 		luhn: true
 	},
 	scheme: 'visa',
@@ -16,12 +16,12 @@ var result = {
 	prepaid: false,
 	country: {
 		numeric: '208',
-		alpha2: 'DK',
-		name: 'Denmark',
-		emoji: '🇩🇰',
-		currency: 'DKK',
-		latitude: 56,
-		longitude: 10
+		alpha2: 'Br',
+		name: 'Br',
+		emoji: '🌎',
+		currency: 'Br',
+		latitude: 73,
+		longitude: 34,
 	},
 	bank: {
 		name: 'Jyske Bank',
